@@ -1,0 +1,30 @@
+{
+  "name": "dotmapper",
+  "version": "0.0.1",
+  "description": "Auto-generate a dotmap from a GeoJSON file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veltman/dotmapper.git"
+  },
+  "keywords": [
+    "dots",
+    "dots",
+    "dots"
+  ],
+  "author": "Noah Veltman (@veltman)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/veltman/dotmapper/issues"
+  },
+  "homepage": "https://github.com/veltman/dotmapper#readme",
+  "dependencies": {
+    "point-in-polygon": "^1.0.0",
+    "rbush": "^1.4.2",
+    "rbush-knn": "^1.1.0",
+    "turf-extent": "^1.0.4"
+  }
+}
